@@ -6,7 +6,7 @@
 
 # Runtime data (issued XMLs, numbering database)
 data/
-emitente.json
+/emitente.json
 
 __pycache__/
 *.egg-info/
