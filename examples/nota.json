@@ -1,0 +1,47 @@
+{
+  "natureza_operacao": "Venda de mercadoria",
+  "presenca": 2,
+  "destinatario": {
+    "nome": "CLIENTE EXEMPLO LTDA",
+    "cnpj": "44.555.666/0001-81",
+    "ie": "222333444555",
+    "indicador_ie": 1,
+    "email": "compras@cliente.example",
+    "endereco": {
+      "logradouro": "Rua das Flores",
+      "numero": "50",
+      "bairro": "Centro",
+      "codigo_municipio": "3509502",
+      "municipio": "Campinas",
+      "uf": "SP",
+      "cep": "13010-000"
+    }
+  },
+  "itens": [
+    {
+      "codigo": "SKU-001",
+      "descricao": "Camiseta algodao azul M",
+      "ncm": "61091000",
+      "cfop": "5102",
+      "unidade": "UN",
+      "quantidade": "3",
+      "valor_unitario": "49.90",
+      "csosn": "102"
+    },
+    {
+      "codigo": "SKU-002",
+      "descricao": "Bone aba curva preto",
+      "ncm": "65050090",
+      "cfop": "5102",
+      "unidade": "UN",
+      "quantidade": "1",
+      "valor_unitario": "79.00",
+      "desconto": "9.00",
+      "csosn": "102"
+    }
+  ],
+  "pagamentos": [
+    {"tipo": "17", "valor": "219.70"}
+  ],
+  "informacoes_complementares": "Pedido 12345"
+}

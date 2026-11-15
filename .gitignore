@@ -1,0 +1,16 @@
+# Secrets — never commit certificates or passwords
+*.pfx
+*.p12
+*.pem
+.env
+
+# Runtime data (issued XMLs, numbering database)
+data/
+emitente.json
+
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
